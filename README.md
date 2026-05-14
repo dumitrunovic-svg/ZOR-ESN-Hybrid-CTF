@@ -2,6 +2,13 @@
 
 **Data-type-aware predictor for the KS_Official benchmark.**
 
+## Submission
+
+- **Official dataset:** `KS_Official`
+- **ctf4science PR:** [CTF-for-Science/ctf4science#20](https://github.com/CTF-for-Science/ctf4science/pull/20)
+- **Integration path:** `models/ZOR_ESN_Hybrid` as a Git submodule
+
+
 ## Key Insight
 
 The `KS_Official` dataset contains **two structurally distinct classes** of training trajectories:
