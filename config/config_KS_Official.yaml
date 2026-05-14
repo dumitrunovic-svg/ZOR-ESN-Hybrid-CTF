@@ -1,0 +1,14 @@
+dataset:
+  name: KS_Official
+  pair_id: all
+
+model:
+  name: ZOR_ESN_Hybrid
+  # ESN hyperparameters obtained through evolutionary hyperparameter search.
+  # Validated reproducibly across multiple independent random seeds.
+  spectral_radius: 0.85
+  input_scaling: 0.1
+  leaking_rate: 1.0
+  ridge_alpha: 1.0e-4
+  reservoir_size: 1000
+  washout: 200
